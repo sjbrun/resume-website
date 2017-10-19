@@ -45,10 +45,10 @@
 
          <ul id="nav" class="nav">
             <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a class="smoothscroll" href="#about">About</a></li>
+            <li><a class="smoothscroll" href="#about">Contact</a></li>
 	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
             <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
-            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+            <!-- <li><a class="smoothscroll" href="#contact">Contact</a></li> -->
          </ul> <!-- end #nav -->
 
       </nav> <!-- end #nav-wrap -->
@@ -86,10 +86,12 @@
 
          <div class="nine columns main-col">
 
+<!--
             <h2>About Me</h2>
 
             <p>Stuff about me blah blah blah
             </p>
+-->
 
             <div class="row">
 
@@ -98,18 +100,17 @@
                   <h2>Contact Details</h2>
                   <p class="address">
 						   <span>Sam Bruno</span><br>
-						   <span>27 Colgate Rd<br>
-						         Boston, MA 02131 US
+						   <span>Boston, MA 02131 US
                      </span><br>
 						   <span>(703) 201-5548</span><br>
-                     <span>sam.j.bruno@gmail.com</span>
+               <span><a href="mailto:sam.j.bruno@gmail.com">sam.j.bruno@gmail.com</a></span>
 					   </p>
 
                </div>
 
                <div class="columns download">
                   <p>
-                     <a href="Sam Bruno - Resume.docx" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                     <a href="Sam Bruno - Resume.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
 
@@ -217,10 +218,16 @@
                   <p class="info">Test Engineer <span>&bull;</span> <em class="date">September 2013 - Present</em></p>
 
                   <ul class="bullets">
-                    <li>Environmental testing</li>
-                    <li>Data analysis</li>
-                    <li>Failure analysis</li>
-                    <li>Write technical reports</li>
+                    <li>Environmental testing on lighting products using synchronous Labview and chamber programs</li>
+                    <li>Python scripting (matplotlib, pandas, numpy, scipy, plotly, lxml)</li>
+                    <li>Created a flexible test analysis program in Python to analyze current/voltage data at
+                      different test conditions. Implemented GUI so coworkers could utilize the automated analysis
+                      tool. Continue to maintain and add new features. See project in portfolio section at the bottom
+                      of the page.</li>
+                    <li>Thermal imaging of LED boards and control modules during product development</li>
+                    <li>Writing technical test reports</li>
+                    <li>Consistent communication and teamwork with design engineers regarding product validation
+                      and failure analysis</li>
                   </ul>
 
                </div>
@@ -285,7 +292,7 @@
                       <p>Python, Ruby, Matlab, ExcelVBA</p>
                     </li>
                     <li><span></span><em>Web Development</em>
-                      <p>Ruby on Rails, Javascript, CSS, HTML, Git</p>
+                      <p>Ruby on Rails, Javascript, CSS, HTML, XML, Git</p>
                     </li>
 				    <li><span></span><em>Office</em>
                       <p>Microsoft Suite (Word, Powerpoint, Projects, Excel, etc.)</p>
@@ -421,11 +428,12 @@
 
 		      <div class="description-box">
 			      <h4>Music Jam and Repertoire Application</h4>
-                  <a href="https://test-music-app.herokuapp.com/" target="_blank">
+                  <a href="https://test-music-sharing.herokuapp.com" target="_blank">
                   <i class="fa fa-link" aria-hidden="true"></i> Link to project (may take a few seconds to open)</a>
-			      <p>This app allows users to keep track of songs they learn. I created it so that my friends and I could keep track of what songs we were all learning.
-                    The "start a jam" feature compares users' repetoires and suggests songs that all people in the jam know how to play. The link above is just a test copy (small fake database)
-                of the real thing but has some of the same features.</p>
+			      <p>This rails app allows musicians to keep track of songs they learn. It also provides a shared database of these songs, including
+               information and resources. I created it so my friends and I could have a common interface. There are features such as
+               starting a jam and toggling the chord progressions from letters to numerals. The link above is a clone of the production version
+               -- sign in as "TestUser" and poke around!</p>
                <span class="categories"><i class="fa fa-tag"></i>Ruby on Rails</span>
 		      </div>
 
@@ -461,8 +469,9 @@
 		      <div class="description-box">
 			      <h4>Music App using ReactJS</h4>
                   <a href="#"><i class="fa fa-link" aria-hidden="true"></i> Link to project</a>
-			      <p>This project is currently under construction. I am actively learning ReactJS and the idea is to pull from the music app I built on Rails and extend the front end
-                possiblities. Also a good way to inspire and reinforce my learning of React.</p>
+			      <p>This project is currently under construction. I am actively learning ReactJS and the idea is to pull
+              from the database of the music app I built to create a single page application. Seems a good way to
+              inspire and reinforce my learning of React.</p>
                <span class="categories"><i class="fa fa-tag"></i>ReactJS</span>
 		      </div>
 
@@ -480,7 +489,7 @@
 
    <!-- Contact Section
    ================================================== -->
-   <section id="contact">
+   <!-- <section id="contact">
 
          <div class="row section-head">
 
@@ -503,7 +512,6 @@
 
             <div class="eight columns">
 
-               <!-- form -->
                <form action="" method="post" id="contactForm" name="contactForm">
 					<fieldset>
 
@@ -535,13 +543,11 @@
                   </div>
 
 					</fieldset>
-				   </form> <!-- Form End -->
+				   </form>
 
-               <!-- contact-warning -->
-               <div id="message-warning"> Error boy</div>
-               <!-- contact-success -->
+           <div id="message-warning"> Error boy</div>
 				   <div id="message-success">
-                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+             <i class="fa fa-check"></i>Your message was sent, thank you!<br>
 				   </div>
 
             </div>
@@ -565,7 +571,7 @@
 
       </div>
 
-   </section> <!-- Contact Section End-->
+   </section> --> <!-- Contact Section End-->
 
 
    <!-- footer
